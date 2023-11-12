@@ -1,0 +1,256 @@
+
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Patua One', cursive;
+   
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+
+}
+
+body {
+    background-image: url('images/image-1.jpg');
+}
+
+
+
+
+.half-width h1{
+    font-size: 60px;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Patua One', cursive;
+   
+}
+h2{
+    font-size: 45px;
+}
+p{
+    color: rgb(237, 232, 236);
+}
+.highlight{
+
+    color:coral;
+}
+.highlight:hover{
+    color: rgb(130, 207, 238);
+
+}
+.highlight2{
+    color: red;
+    font-size: 22px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.linkadd{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#4776e6,
+    #8e54e9);
+    background-color: cyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.linkadd:hover{
+    color: black;
+    font-size: 20px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.experiance2{
+    box-shadow: 20px 20px 70px #a5fecb;
+    border-radius: 10px;
+    height: 80%;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 9px solid;
+    padding-right: 2px;
+    border-image: linear-gradient(180deg,#f46b45,
+#eea849);
+    border-image-slice: 1;
+    background-color: none;
+}
+#full-stack h3{
+    font-size: 25px;
+}
+#full-stack p{
+    padding-right: 10px;
+}
+#junior{
+    border-left: 9px solid;
+    border-image: linear-gradient(180deg,#24c6dc,
+    #514a9d);
+    border-image-slice: 1;
+}
+#junior h3{
+    font-size: 25px;
+}
+#junior p{
+    padding-right: 10px;
+}
+footer{
+     text-align: center;
+     font-size: 15px;
+}
+#insta{
+    background-image:linear-gradient(45deg,#fc5c7d,
+    #6a82fb);
+}
+#facebook{
+    background-image: linear-gradient(50deg,
+    #0ed2f7
+    );
+}
+#twitter{
+    background-color: #58D6F9;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1200px) {
+    body {
+        background-image: url('images/image-2.jpg');
+    }
+
+.half-width h1{
+    font-size: 60px;
+    font-family: 'Francois One', sans-serif;
+    font-family: 'Patua One', cursive;
+   
+}
+h2{
+    font-size: 45px;
+}
+p{
+    color: rgb(237, 232, 236);
+}
+.highlight{
+
+    color:coral;
+}
+.highlight:hover{
+    color: rgb(130, 207, 238);
+
+}
+.highlight2{
+    color: red;
+    font-size: 22px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    text-align: justify;
+
+}
+
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.linkadd{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,#4776e6,
+    #8e54e9);
+    background-color: cyan;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.linkadd:hover{
+    color: black;
+    font-size: 20px;
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position: right;
+}
+.experiance2{
+    box-shadow: 20px 20px 70px #a5fecb;
+    border-radius: 10px;
+    height: 80%;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 9px solid;
+    padding-right: 2px;
+    border-image: linear-gradient(180deg,#f46b45,
+#eea849);
+    border-image-slice: 1;
+    background-color: none;
+}
+#full-stack h3{
+    font-size: 25px;
+}
+#full-stack p{
+    padding-right: 10px;
+}
+#junior{
+    border-left: 9px solid;
+    border-image: linear-gradient(180deg,#24c6dc,
+    #514a9d);
+    border-image-slice: 1;
+}
+#junior h3{
+    font-size: 25px;
+}
+#junior p{
+    padding-right: 10px;
+}
+footer{
+     text-align: center;
+     font-size: 15px;
+}
+#insta{
+    background-image:linear-gradient(45deg,#fc5c7d,
+    #6a82fb);
+}
+#facebook{
+    background-image: linear-gradient(50deg,
+    #0ed2f7
+    );
+}
+#twitter{
+    background-color: #58D6F9;
+}
+}
